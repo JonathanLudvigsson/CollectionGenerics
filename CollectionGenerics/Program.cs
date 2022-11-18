@@ -21,9 +21,9 @@ namespace CollectionGenerics
             eStack.Push(e5);
 
             Console.WriteLine("All employees");
-            foreach (Employee employee in eStack)
+            foreach (Employee employ in eStack)
             {
-                Console.WriteLine($"{employee.ID} - {employee.Name} - {employee.Gender} - {employee.Salary}");
+                Console.WriteLine($"{employ.ID} - {employ.Name} - {employ.Gender} - {employ.Salary}");
                 Console.WriteLine($"Items left in eStack = {eStack.Count}");
             }
             Console.WriteLine("------------------------------");
